@@ -69,10 +69,10 @@ typora-copy-images-to: media
 #### html骨架标签总结
 | 标签名              |   定义   | 说明                             |
 | ---------------- | :----: | :----------------------------- |
-| <html></html>    | HTML标签 | 页面中最大的标签，我们成为  根标签             |
-| <head></head>    | 文档的头部  | 注意在head标签中我们必须要设置的标签是title     |
-| <titile></title> | 文档的标题  | 让页面拥有一个属于自己的网页标题               |
-| <body></body>    | 文档的主体  | 元素包含文档的所有内容，页面内容 基本都是放到body里面的 |
+| `<html></html>`    | HTML标签 | 页面中最大的标签，我们成为  根标签             |
+| `<head></head>`    | 文档的头部  | 注意在head标签中我们必须要设置的标签是title     |
+| `<titile></title>` | 文档的标题  | 让页面拥有一个属于自己的网页标题               |
+| `<body></body>`    | 文档的主体  | 元素包含文档的所有内容，页面内容 基本都是放到body里面的 |
 
 **课堂练习1： **   
 
@@ -198,16 +198,16 @@ HTML标签名、类名、标签属性和大部分属性值统一用小写
 
 **请问下列哪组标签关系是错误的？ **
 
-- [ ] <head> </head><body> </body>
+- [ ] `<head> </head><body> </body>`
 
 
-- [ ] <div> <strong></strong> </div>
+- [ ] `<div> <strong></strong> </div>`
 
 
-- [x] <head> <title></head> </title>
+- [x] `<head> <title></head> </title>`
 
 
-- [ ] <body> <div></div> </body>
+- [ ] `<body> <div></div> </body>`
 
 
 
