@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.box {
+			width: 1002px;
+			margin: 0 auto;
+			margin-top: 44px;
+		}
+		.ad-l {
+			position: fixed;
+			top: 100px;
+			left: 0;
+		}
+		.ad-r {
+			position: fixed;
+			top: 100px;
+			right: 0;
+		}
+		.top {
+			/*因为没有写宽度  默认的宽度是内容的宽度*/
+			/*此时我们需要给这个top 盒子 通栏的盒子*/
+			/*所以以后，定位的盒子，很多情况下，需要单写宽度*/
+			/*所以以后，定位的盒子，如果需要通栏 那我们宽度就给 100%*/
+			width: 100%;
+			position: fixed;
+			top: 0;
+			height: 44px;
+			/*background-color: pink;*/
+			text-align: center;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<img src="images/top.png" alt="">
+	</div>
+	<!-- 左右的固定定位 -->
+	<img src="images/ad-l.png" alt="" class="ad-l">
+	<img src="images/ad-r.png" alt="" class="ad-r">
+	<div class="box">
+		<img src="images/box.png" alt="">
+	</div>
+</body>
+</html>

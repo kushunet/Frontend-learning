@@ -278,7 +278,7 @@ text-decoration   通常我们用于给链接修改装饰效果
 
 Emmet的前身是Zen coding,它使用缩写,来提高html/css的编写速度。
 
-1. 生成标签 直接输入标签名 按tab键即可   比如  div   然后tab 键， 就可以生成 <div></div>
+1. 生成标签 直接输入标签名 按tab键即可   比如  div   然后tab 键， 就可以生成 `<div></div>`
 
 2. 如果想要生成多个相同标签  加上 * 就可以了 比如   div*3  就可以快速生成3个div
 

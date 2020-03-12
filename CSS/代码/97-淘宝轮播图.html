@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘宝轮播图</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			list-style: none;
+		}
+		.taobao {
+			/*子绝父相*/
+			position: relative;
+			width: 520px;
+			height: 280px;
+			background-color: pink;
+			margin: 100px auto;
+		}
+		/*并集选择器 集体声明 让代码更简洁*/
+		.arrow-l,
+		.arrow-r {
+			/*只能用定位来做，才能压住盒子*/
+			/*不要占有位置 随便移动位置 必须用绝对定位*/
+			position: absolute;
+			/*垂直居中公式*/
+			/*1. 走父级高度的 50%*/
+			top: 50%;
+			/*2. 往上走 自己高度 的一半*/
+			margin-top: -15px;
+			/*绝对定位的盒子 无须转换，直接给大小就好了*/
+			width: 20px;
+			height: 30px;
+			background: rgba(0, 0, 0, .2);
+			text-decoration: none;
+			color: #fff;
+			/*text-align: center;*/
+			line-height: 30px;
+		}
+		.arrow-l {
+			left: 0;
+			/*圆角矩形*/
+			/*border-radius: 15px;*/
+			/*右上角*/
+			border-top-right-radius: 15px;
+			/*右下角*/
+			border-bottom-right-radius: 15px;
+		}
+		.arrow-r {
+			right: 0;
+			text-align: right;
+			/*圆角矩形*/
+			/*border-radius: 15px;*/
+			/*border-radius: 左上角 右上角  右下角  左下角;*/
+			border-radius: 15px 0 0 15px;
+		}
+		.arrow-l:hover,
+		.arrow-r:hover {
+			background: rgba(0, 0, 0, .4);
+		}
+		.circle {
+			position: absolute;
+			left: 50%;
+			margin-left: -35px;
+			bottom: 15px;
+			width: 70px;
+			height: 13px;
+			background: rgba(255, 255, 255, 0.3);
+			border-radius: 7px;
+		}
+		.circle li {
+			float: left;
+			width: 8px;
+			height: 8px;
+			background-color: #fff;
+			margin: 3px;
+			border-radius: 50%;
+		}
+		/*current 当前的意思  此处一定要注意 优先级的问题*/
+		.circle .current {
+			background-color: #ff5000;
+		}
+	</style>
+</head>
+<body>
+	<div class="taobao">
+		<!-- 左按钮 -->
+		<a href="#" class="arrow-l"> &lt; </a>
+		<!-- 右按钮 -->
+		<a href="#" class="arrow-r"> &gt; </a>
+		<!-- 图片 -->
+		<img src="images/taobao.jpg" alt="">
+		<!-- 小圆点 -->
+		<ul class="circle">
+			<li></li>
+			<li class="current"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>

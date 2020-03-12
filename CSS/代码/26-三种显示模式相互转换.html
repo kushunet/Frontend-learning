@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		span {
+			/*把行内元素转换为块级元素*/
+			display: block;
+			width: 100px;
+			height: 100px;
+			background-color: pink;
+		}
+		div {
+			/*把块级元素转换为行内元素*/
+			display: inline;
+			width: 200px;
+			height: 200px;
+			background-color: purple;
+		}
+		a {
+			/*转换为 行内块元素*/
+			display: inline-block;
+			width: 80px;
+			height: 25px;
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<span>行内</span>
+	<span>行内</span>
+
+	<div>div 是块级元素</div>
+	<div>div 是块级元素</div>
+	<a href="#">百度</a>
+	<a href="#">新浪</a>
+</body>
+</html>

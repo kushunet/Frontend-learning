@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绝对定位以带有定位的父级元素来移动位置</title>
+	<style>
+		.yeye {
+			width: 500px;
+			height: 500px;
+			background-color: skyblue;
+			position: absolute;
+		}
+		.father {
+			width: 350px;
+			height: 350px;
+			background-color: pink;
+			margin: 100px;
+			/*标准流的子盒子总是以父级为准移动位置*/
+			  /*如果 父级 没有定位 绝对定位子盒子 以我们文档为准浏览器移动位置*/
+			  /*如果 父级 有定位 绝对定位子盒子 以父级为准移动位置*/   
+			/*position: relative;*/
+		}
+		.son {
+			width: 200px;
+			height: 200px;
+			background-color: purple;
+			/*margin-left: 100px;*/
+			position: absolute;
+			top: 50px;
+			left: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="yeye">
+		<div class="father">
+				<div class="son"></div>
+		</div>
+	</div>
+</body>
+</html>

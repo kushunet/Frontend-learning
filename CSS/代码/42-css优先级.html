@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*div {
+			color: red;
+		}*/
+		/*标签选择器 权重 0,0,0,1  小组长*/
+		div {
+			color: pink!important;
+		}
+		/*类选择器 权重 0,0,1,0 班长*/
+		.one {
+			color: blue;
+		}
+		/*id 选择器 权重 0,1,0,0  班主任*/
+		#two {
+			color: green;
+		}
+		/*style= 行内样式表 权重 1,0,0,0  校长*/
+		/*!important 在样式属性的后面添加 权重最高 ∞  教育局局长*/
+
+	</style>
+</head>
+<body>
+	<div class="one" id="two" style="color: yellow;"> 权重还有30秒到达战场 </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>浮动口诀之浮</title>
+	<style>
+		 /*浮动元素默认之间没有缝隙 和真正的行内块有区别*/
+		.one,
+		.two {
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+		}
+		.one {
+			float: left;
+		}
+		.two {
+			background-color: purple;
+			float: left;
+		}
+		.three {
+			float: left;
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="one"></div>
+	<div class="two"></div>
+	<div class="three"></div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*很多情况下，我们的父盒子，不方便给高度  根据内容撑开，有多少内容，我的父盒子就有多高*/
+		.one {
+			width: 500px;
+			/*background-color: pink;*/
+			border: 1px  solid red;
+		}
+		/*因为damao 二毛 浮动了，不占有位置， 而父级又没有高度， 所以two 就到底下去了*/
+		.damao {
+			float: left;
+			width: 200px;
+			height: 200px;
+			background-color: purple;
+		}
+		.ermao {
+			float: left;
+			width: 250px;
+			height: 250px;
+			background-color: skyblue;
+		}
+		.two {
+			width: 700px;
+			height: 150px;
+			background-color: #000;
+		}
+		/*清除浮动*/
+		.clear {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div class="one">
+		<div class="damao"></div>
+		<div class="ermao"></div>
+		<div class="clear"></div>
+	</div>
+	<div class="two"></div>
+</body>
+</html>

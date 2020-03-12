@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.father {
+			width: 500px;
+			height: 500px;
+			background-color: pink;
+			/*嵌套关系 垂直外边距合并  解决方案 */
+			/*1. 可以为父元素定义上边框  transparent 透明*/
+			/*border-top: 1px solid transparent;*/
+			/*2. 可以给父级指定一个 上 padding值*/
+			/*padding-top: 1px; */
+			/*3. 可以为父元素添加overflow:hidden。*/
+			overflow: hidden;
+		}
+		.son {
+			width: 200px;
+			height: 200px;
+			background-color: purple;
+			margin-top: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="son"></div>
+	</div>
+</body>
+</html>

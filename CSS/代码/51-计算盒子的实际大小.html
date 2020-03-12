@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>计算盒子实际的大小</title>
+	<style>
+		div {
+			width: 180px;
+			height: 200px;
+			background-color: pink;
+			/*添加10px 内边距 左右 上下*/
+			padding: 10px;
+			/*盒子的实际大小 =  内容宽度 高度 +  内边距 +  边框*/
+			      /*           =   200  +  20  +  0
+			                 =   220  */
+             /*解决的方法：
+                内边距一定要给的， 我们只能改变 内容宽度 width 让他减去 多出来的内边距就可以了*/
+                /*200 - 20  =  180 */
+		}
+	</style>
+</head>
+<body>
+	<div> </div>
+</body>
+</html>

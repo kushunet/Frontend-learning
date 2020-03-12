@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div {
+			color: red;
+		}
+		p {
+			color: green;
+		}
+		/*因为demo 没有选p标签，所以 继承的权重为 0*/
+		.demo {
+			color: blue;
+		}
+		#test {
+			color: pink;
+		}
+	</style>
+</head>
+<body>
+	<div class="demo" id="test">
+		<p>继承的权重为 0</p>
+	</div>
+</body>
+</html>

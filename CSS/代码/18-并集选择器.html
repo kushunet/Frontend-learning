@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*客户需求： p 和 span 和 第一个div 里面的颜色都是红色*/
+		/*分开写的*/
+		/*p {
+			color: red;
+		}
+		span {
+			color: red;
+		}*/
+		/*.red {
+			color: red;
+		}*/
+		/*并集选择器 用逗号隔开， 逗号理解为 和的意思  通常用于集体声明 就是因为这些选择器 里面的样式 相同*/
+		p, 
+		span,
+		.red {
+			color: red;
+		}
+		
+	</style>
+</head>
+<body>
+	<p>我和你</p>
+	<p>我和你</p>
+	<p>我和你</p>
+	<span>我和你</span>
+	<span>我和你</span>
+	<span>我和你</span>
+	<div class="red">我和你</div>
+	<div>我和你</div>
+	<h1>你和我</h1>
+	<h1>你和我</h1>
+</body>
+</html>

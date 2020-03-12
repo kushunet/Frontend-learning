@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.damao,
+		.ermao,
+		.sanmao {
+			/*绝对定位*/
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+		.damao {
+			z-index: 2;
+			/*数值越大越靠上
+			后面不跟单位
+			只能是整数*/
+		}
+		.ermao {
+			top: 50px;
+			left: 50px;
+			z-index: 1;
+			background-color: green;
+		}
+		.sanmao {
+			top: 100px;
+			left: 100px;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="damao"></div>
+	<div class="ermao"></div>
+	<div class="sanmao"></div>
+</body>
+</html>

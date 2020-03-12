@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>链接伪类选择器</title>
+	<style>
+		/*未访问过链接的状态 正常状态*/
+		/*p.one 交集选择器*/
+		a:link {
+			color: #333;
+			/*取消下划线*/
+			text-decoration: none;
+		}
+		/*已经访问的链接  我们点击过*/
+		a:visited {
+			color: orange;
+		}
+		/*鼠标经过链接时候的状态*/
+		a:hover {
+			color: red;
+		}
+		/*当我们点击的时候（按下鼠标，别松开的时候）*/
+		a:active {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<a href="http://www.xiaomi.com">小米手机</a>
+	<a href="http://www.dami.com">大米手机</a>
+	<!-- p.one -->
+</body>
+</html>

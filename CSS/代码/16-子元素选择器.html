@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	/*后代选择器 选择 子孙后代*/
+	/*div strong {
+		color: red;
+	}*/
+	/*子元素选择器  符号  > 只选亲儿子 这些元素 */
+	div>strong {
+		color: pink;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<strong>儿子</strong>
+		<strong>儿子</strong>
+		<strong>儿子</strong>
+	</div>
+	<div>
+		<p>
+			<strong>孙子</strong>
+			<strong>孙子</strong>
+			<strong>孙子</strong>
+		</p>
+	</div>
+</body>
+</html>
