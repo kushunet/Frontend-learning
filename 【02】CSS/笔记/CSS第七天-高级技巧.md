@@ -33,7 +33,7 @@
 
 - 特点： 隐藏之后，不再保留位置。
 
-<img src='./media/29none.png'>
+<img src='media\2-7-1.png'>
 
 实际开发场景：
 
@@ -51,7 +51,7 @@
 
 - 特点： 隐藏之后，继续保留原有位置。（停职留薪）
 
-<img src='./media/30visibility.png'>
+<img src='media\2-7-2.png'>
 
 ### 1.3 overflow 溢出(重点)
 
@@ -65,7 +65,7 @@
 | **scroll**  | 不管超出内容否，总是显示滚动条             |
 | **auto**    | 超出自动显示滚动条，不超出不显示滚动条     |
 
- <img src='./media/33overflow.png'>
+ <img src='media\2-7-3.png'>
 
 实际开发场景：
 
@@ -79,7 +79,8 @@
 | **display**    | 隐藏对象，不保留位置   | 配合后面js做特效，比如下拉菜单，原先没有，鼠标经过，显示下拉菜单， 应用极为广泛 |
 | **visibility** | 隐藏对象，保留位置     | 使用较少                                                     |
 | **overflow**   | 只是隐藏超出大小的部分 | 1. 可以清除浮动 2. 保证盒子里面的内容不会超出该盒子范围                                   |
-## 2. CSS用户界面样式
+
+## 2.CSS用户界面样式
 
 - 所谓的界面样式， 就是更改一些用户操作样式，以便提高更好的用户体验。
   - 更改用户的鼠标样式 (滚动条因为兼容性非常差，我们不研究) 
@@ -97,7 +98,8 @@
 | **move**        | 移动       |
 | **text**        | 文本       |
 | **not-allowed** | 禁止       |
- 鼠标放我身上查看效果哦：
+
+鼠标放我身上查看效果哦：
 
 ```html
 <ul>
@@ -111,7 +113,7 @@
 
 ### 2.2 轮廓线 outline
 
-<img src='./media/outline.png'>
+<img src='media\2-7-4.png'>
 
  是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。 
 
@@ -129,7 +131,7 @@
 
 ### 2.3 防止拖拽文本域resize
 
-<img src='./media/34textarea.png'>
+<img src='media\2-7-5.png'>
 
 实际开发中，我们文本域右下角是不可以拖拽： 
 
@@ -141,9 +143,10 @@
 
 | 属性         | 用途                 | 用途                                                         |
 | ------------ | -------------------- | ------------------------------------------------------------ |
-| **鼠标样式** | 更改鼠标样式cursor   | 样式很多，重点记住 pointer                                   |
-| **轮廓线**   | 表单默认outline      | outline 轮廓线，我们一般直接去掉，border是边框，我们会经常用 |
+| 鼠标样式 | 更改鼠标样式cursor   | 样式很多，重点记住 pointer                                   |
+| 轮廓线   | 表单默认outline      | outline 轮廓线，我们一般直接去掉，border是边框，我们会经常用 |
 | 防止拖拽     | 主要针对文本域resize | 防止用户随意拖拽文本域，造成页面布局混乱，我们resize:none    |
+
 ## 3. vertical-align 垂直对齐
 
 - 有宽度的块级元素居中对齐，是margin: 0 auto;
@@ -153,7 +156,7 @@
 
 vertical-align 垂直对齐，它只针对于**行内元素**或者**行内块元素**，
 
-<img src="media/xian.jpg" />
+<img src="media\2-7-6.png" />
 
 ```css
 vertical-align : baseline |top |middle |bottom 
@@ -171,13 +174,13 @@ vertical-align : baseline |top |middle |bottom
 
 所以我们知道，我们可以通过vertical-align 控制图片和文字的垂直关系了。 默认的图片会和文字基线对齐。
 
- <img src='./media/基线对齐.jpg'>
+ <img src='media\2-7-7.png'>
 
-![1498467742995](media/1498467742995.png)
+![1498467742995](media/2-7-8.png)
 
 ### 3.2 去除图片底侧空白缝隙
 
-<img src='./media/35vertical.png'>
+<img src='media\2-7-9.png'>
 
 - 原因：
 
@@ -187,11 +190,11 @@ vertical-align : baseline |top |middle |bottom
 
 - 解决的方法就是：  
 
-  - 给img vertical-align:middle | top| bottom等等。  让图片不要和基线对齐。<img src="media/1633.png"  width="500"  style="border: 1px dashed #ccc;" />
+  - 给img vertical-align:middle | top| bottom等等。  让图片不要和基线对齐。<img src="media\2-7-10.png"  width="500"  style="border: 1px dashed #ccc;" />
 
-    ​
+    
 
-  - 给img 添加 display：block; 转换为块级元素就不会存在问题了。<img src="media/sina1.png" width="500" style="border: 1px dashed #ccc;"/>
+  - 给img 添加 display：block; 转换为块级元素就不会存在问题了。<img src="media\2-7-11.png" width="500" style="border: 1px dashed #ccc;"/>
 
 ##  4. 溢出的文字省略号显示
 
@@ -219,7 +222,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 一定要首先强制一行内显示，再次和overflow属性  搭配使用
 
-<img src='./media/dot.png'>
+<img src='media\2-7-12.png'>
 
 ### 4.3 总结三步曲
 
@@ -236,7 +239,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 ###  5.1 为什么需要精灵技术
 
-<img src="media/sss.png" />
+<img src="media\2-7-13.png" />
 
 图所示为网页的请求原理图，当用户访问一个网站时，需要向服务器发送请求，网页上的每张图像都要经过一次请求才能展现给用户。
 
@@ -252,7 +255,7 @@ text-overflow：ellipsis ； 当对象内文本溢出时显示省略标记（...
 
 CSS 精灵其实是将网页中的一些背景图像整合到一张大图中（精灵图），然而，各个网页元素通常只需要精灵图中不同位置的某个小图，要想精确定位到精灵图中的某个小图。
 
-<img src="media/jds.png"  style="border: 1px dashed #ccc;" />
+<img src="media\2-7-14.png"  style="border: 1px dashed #ccc;" />
 
 这样，当用户访问该页面时，只需向服务发送一次请求，网页中的背景图像即可全部展示出来。
 
@@ -288,13 +291,13 @@ CSS 精灵其实是将网页中的一些背景图像整合到一张大图中（�
 
 先来体会下现实中的滑动门,或者你可以叫做推拉门：
 
-<img src="media/h.gif" />
+<img src="media\2-7-15.gif" />
 
 ###  滑动门出现的背景
 
 制作网页时，为了美观，常常需要为网页元素设置特殊形状的背景，比如微信导航栏，有凸起和凹下去的感觉，最大的问题是里面的字数不一样多，咋办？
 
-<img src="media/wxx.jpg" />
+<img src="media\2-7-16.jpg" />
 
 为了使各种特殊形状的背景能够自适应元素中文本内容的多少，出现了CSS滑动门技术。它从新的角度构建页面，使各种特殊形状的背景能够自由拉伸滑动，以适应元素内部的文本内容，可用性更强。 最常见于各种导航栏的滑动门。
 
@@ -369,7 +372,7 @@ css样式
 
 #### 2). 压住盒子相邻边框 
 
-<img src="media/margin.png" />
+<img src="media\2-7-17.png" />
 
 
 
@@ -397,7 +400,7 @@ css样式
 
 一张图， 你就知道 css 三角是怎么来的了, 做法如下：
 
- <img src="media/arr.png" />
+ <img src="media\2-7-18.png" />
 
 1. 我们用css 边框可以模拟三角效果
 2. 宽度高度为0
