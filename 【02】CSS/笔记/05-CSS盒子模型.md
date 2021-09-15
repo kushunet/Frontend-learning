@@ -1,15 +1,17 @@
 ---
 typora-copy-images-to: media
+
 ---
 
 > 第01阶段.前端基础.盒子模型
+
 # 盒子模型（CSS重点）
 
-css学习三大重点： css 盒子模型   、  浮动  、  定位  
+css学习三大重点：CSS盒子模型、浮动、定位  
 
 主题思路：
 
-<img src="media/day3.png" />
+<img src="media\2-3-1.jpg" />
 
 目标： 
 
@@ -28,14 +30,14 @@ css学习三大重点： css 盒子模型   、  浮动  、  定位
 
 网页布局中，我们是如何把里面的文字，图片，按照美工给我们的效果图排列的整齐有序呢？
 
-<img src="media/t.png" />
+<img src="media\2-3-2.jpg" />
 
 - 看透网页布局的本质：
   -  首先利用CSS设置好盒子的大小，然后摆放盒子的位置。
   -  最后把网页元素比如文字图片等等，放入盒子里面。
-  - 以上两步 就是网页布局的本质
+  -  以上两步 就是网页布局的本质
 
- <img src="media/t1.png" />
+ <img src="media\2-3-3.jpg" />
 
 我们明白了，盒子是网页布局的关键点，所以我们更应该弄明白 这个盒子有什么特点。
 
@@ -45,9 +47,9 @@ css学习三大重点： css 盒子模型   、  浮动  、  定位
 
   - 就是把HTML页面中的布局元素看作是一个矩形的盒子，也就是一个盛装内容的容器。
 
-  <img src='./media/盒子模型.png'>
+  <img src="media\2-3-4.jpg">
 
-   <img src="media/boxs.png"  width="700" />
+   <img src="media\2-3-5.jpg"  width="700" />
 
   **pink老师总结：**
 
@@ -61,11 +63,11 @@ css学习三大重点： css 盒子模型   、  浮动  、  定位
 
 
 
- <img src='./media/标准盒子模型.png'>
+ <img src="media\2-3-6.jpg">
 
 ## 3. 盒子边框（border） 
 
-​	<img src='./media/盒子边框.png'>
+​	<img src="media\2-3-7.jpg">
 
 - 语法：
 
@@ -112,7 +114,7 @@ border : border-width || border-style || border-color
 
 ### 3.3 表格的细线边框
 
- <img src='./media/表格边框.png'>
+ <img src="media\2-3-8.jpg">
 
 - 通过表格的`cellspacing="0"`,将单元格与单元格之间的距离设置为0，
 
@@ -144,11 +146,11 @@ border : border-width || border-style || border-color
 </style>
 ~~~
 
- <img src='./media/边框合并.png'>
+ <img src="media\2-3-9.jpg">
 
 ## 4. 内边距（padding）
 
- <img src='./media/16内边距.png'>
+ <img src="media\2-3-10.jpg">
 
 ### 4.1 内边距：
 
@@ -156,19 +158,19 @@ border : border-width || border-style || border-color
 
 ### 4.2 设置
 
-| 属性          | 作用     |
-| ------------- | :------- |
-| padding-left  | 左内边距 |
-| padding-right | 右内边距 |
-| padding-top   | 上内边距 |
-| padding-bottom   | 下内边距 |
+| 属性           | 作用     |
+| -------------- | :------- |
+| padding-left   | 左内边距 |
+| padding-right  | 右内边距 |
+| padding-top    | 上内边距 |
+| padding-bottom | 下内边距 |
 
 当我们给盒子指定padding值之后， 发生了2件事情：
 
 1. 内容和边框 有了距离，添加了内边距。
 2. 盒子会变大了。
 
- <img src="media/w.jpg"/>**注意：  后面跟几个数值表示的意思是不一样的。**
+ <img src="media/2-2-10.jpg"/>**注意：  后面跟几个数值表示的意思是不一样的。**
 
 我们分开写有点麻烦，我们可以不可以简写呢？
 
@@ -179,7 +181,7 @@ border : border-width || border-style || border-color
 | 3个值    | padding：上内边距   左右内边距   下内边距；     |
 | 4个值    | padding: 上内边距 右内边距 下内边距 左内边距 ； |
 
-<img src='./media/顺时针.jpg'>
+<img src="media\2-3-11.jpg">
 
 **课堂一练：**
 
@@ -193,11 +195,11 @@ border : border-width || border-style || border-color
 
 新浪导航栏的核心就是因为里面的字数不一样多，所以我们不方便给宽度，还是给padding ，撑开盒子的。
 
- <img src="media/al.gif" />
+ <img src="media\2-3-12.jpg" />
 
 ### 4.4 内盒尺寸计算（元素实际大小）
 
-<img src='./media/盒模型大小.png'>
+<img src="media\2-3-13.jpg">
 
 - 宽度
 
@@ -205,15 +207,15 @@ border : border-width || border-style || border-color
 
 - 高度
 
-   Element Width = content width + padding + border （Width为内容宽度）
+  Element Width = content width + padding + border （Width为内容宽度）
 
--  盒子的实际的大小 =   内容的宽度和高度 +  内边距   +  边框   
+- 盒子的实际的大小 =   内容的宽度和高度 +  内边距   +  边框   
 
 ### 4.5 内边距产生的问题
 
 - 问题
 
-  <img src='./media/31padding问题.png'>
+  <img src="media\2-3-14.jpg">
 
   会撑大原来的盒子
 
@@ -221,7 +223,7 @@ border : border-width || border-style || border-color
 
   通过给设置了宽高的盒子，减去相应的内边距的值，维持盒子原有的大小
 
-  <img src='./media/32padding问题解决.png'>
+  <img src="media\2-3-15.jpg">
 
 
 
@@ -247,7 +249,7 @@ div {
 
 		width: 200px;
 
-         height: 200px;
+        height: 200px;
 
 		border: 1px solid #000000;
 
@@ -257,7 +259,7 @@ div {
 
 		padding-left: 100px;
 
-		}
+}
 ```
 
 - [ ] (A) 宽度为200px 高度为200px
@@ -275,7 +277,7 @@ h   200 +  100 +  6   =  306
 
 ## 5. 外边距（margin）
 
-<img src='./media/18margin外边距.png'>
+<img src="media\2-3-16.jpg">
 
 ### 5.1 外边距
 
@@ -301,7 +303,10 @@ margin值的简写 （复合写法）代表意思  跟 padding 完全相同。
 实际工作中常用这种方式进行网页布局，示例代码如下：
 
 ~~~css
-.header{ width:960px; margin:0 auto;}
+.header{
+    width:960px;
+    margin:0 auto;
+}
 ~~~
 
 常见的写法，以下下三种都可以。
@@ -323,37 +328,36 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 ### 5.5 插入图片和背景图片区别
 
 1. 插入图片 我们用的最多 比如产品展示类  移动位置只能靠盒模型 padding margin
-4. 背景图片我们一般用于小图标背景 或者 超大背景图片  背景图片 只能通过  background-position
+2. 背景图片我们一般用于小图标背景 或者 超大背景图片  背景图片 只能通过  background-position
 
 ~~~css
- img {  
-		width: 200px;/* 插入图片更改大小 width 和 height */
-		height: 210px;
-		margin-top: 30px;  /* 插入图片更改位置 可以用margin 或padding  盒模型 */
-		margin-left: 50px; /* 插入当图片也是一个盒子 */
-	}
-
- div {
-		width: 400px;
-		height: 400px;
-		border: 1px solid purple;
-		background: #fff url(images/sun.jpg) no-repeat;
-		background-position: 30px 50px; /* 背景图片更改位置 我用 background-position */
-	}
+ img {
+     width: 200px;/* 插入图片更改大小 width 和 height */
+     height: 210px;
+     margin-top: 30px;  /* 插入图片更改位置 可以用margin 或padding  盒模型 */
+     margin-left: 50px; /* 插入当图片也是一个盒子 */
+}
+div {
+    width: 400px;
+    height: 400px;
+    border: 1px solid purple;
+    background: #fff url(images/sun.jpg) no-repeat;
+    background-position: 30px 50px; /* 背景图片更改位置 我用 background-position */
+}
 ~~~
 
 ### 5.6 清除元素的默认内外边距(重要)
 
-<img src='./media/19清除内外边距.png'>
+<img src="media\2-3-17.jpg">
 
 为了更灵活方便地控制网页中的元素，制作网页时，我们需要将元素的默认内外边距清除
 
 代码： 
 
 ~~~css
-* {
-   padding:0;         /* 清除内边距 */
-   margin:0;          /* 清除外边距 */
+* {   
+    padding:0; /* 清除内边距 */
+    margin:0; /* 清除外边距 */
 }
 ~~~
 
@@ -371,7 +375,7 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 - 下面的元素有上外边距margin-top，则他们之间的垂直间距不是margin-bottom与margin-top之和
 - **取两个值中的较大者**这种现象被称为相邻块元素垂直外边距的合并（也称外边距塌陷）。
 
- <img src="media/www.png" />
+ <img src="media\2-3-18.jpg" />
 
 **解决方案：尽量给只给一个盒子添加margin值**。
 
@@ -381,13 +385,13 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 - 父元素的上外边距会与子元素的上外边距发生合并
 - 合并后的外边距为两者中的较大者
 
- <img src="media/n.png" />
+ <img src="media\2-3-19.jpg" />
 
 **解决方案：**
 
 1. 可以为父元素定义上边框。
 2. 可以为父元素定义上内边距
-2. 可以为父元素添加overflow:hidden。
+3. 可以为父元素添加overflow:hidden。
 
 还有其他方法，比如浮动、固定、绝对定位的盒子不会有问题，后面咱们再总结。。。
 
@@ -422,25 +426,27 @@ margin: 10px auto;  /* 块级盒子水平居中  左右margin 改为 auto 就阔
 - 用选区 拖动  可以 测量 大小 
 - ctrl+ d  可以取消选区  或者旁边空白处点击一下也可以取消选区
 
-<img src="media/ps2.png" />
+<img src="media\2-3-20.jpg" />
 
 ## 8. 综合案例
 
-<img src="media/lieb.png" />
+<img src="media\2-3-21.jpg" />
 
 #### 去掉列表默认的样式
 
 无序和有序列表前面默认的列表样式，在不同浏览器显示效果不一样，而且也比较难看，所以，我们一般上来就直接去掉这些列表样式就行了。 代码如下
 
 ~~~css
-li { list-style: none; }
+li {
+    list-style: none;
+}
 ~~~
 
 
 
 ## 9. 今日总结
 
-<img src="media/day3.png" />
+<img src="media/2-3-1.jpg" />
 
 # 拓展@
 
@@ -448,7 +454,7 @@ li { list-style: none; }
 
 ## 1.圆角边框(CSS3)
 
-<img src='./media/圆角.png'>
+<img src="media\2-3-22.jpg">
 
 - 语法：
 
@@ -464,15 +470,15 @@ border-radius:length;
   border-radius: 50%;
   ~~~
 
- <img src="media/radio.png" />
+ <img src="media\2-3-23.jpg" />
 
-* <img src='./media/圆角.png'>
+* <img src="media\2-3-22.jpg">
 * 以上效果图矩形的圆角， 就不要用 百分比了，因为百分比会是表示高度和宽度的一半。
 * 而我们这里矩形就只用 用 高度的一半就好了。精确单位。
 
 ## 2. 盒子阴影(CSS3)
 
-<img src='./media/阴影.png'>
+<img src="media\2-3-24.png">
 
 - 语法:
 
@@ -480,20 +486,19 @@ border-radius:length;
 box-shadow:水平阴影 垂直阴影 模糊距离（虚实）  阴影尺寸（影子大小）  阴影颜色  内/外阴影；
 ~~~
 
-![1498467567011](media/1498467567011.png)
+![1498467567011](media\2-3-25.png)
 
 - 前两个属性是必须写的。其余的可以省略。
 - 外阴影 (outset) 是默认的 但是不能写           想要内阴影可以写  inset 
 
 ~~~css
 div {
-			width: 200px;
-			height: 200px;
-			border: 10px solid red;
-			/* box-shadow: 5px 5px 3px 4px rgba(0, 0, 0, .4);  */
-			/* box-shadow:水平位置 垂直位置 模糊距离 阴影尺寸（影子大小） 阴影颜色  内/外阴影； */
-			box-shadow: 0 15px 30px  rgba(0, 0, 0, .4);
-			
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    /* box-shadow: 5px 5px 3px 4px rgba(0, 0, 0, .4);  */
+    /* box-shadow:水平位置 垂直位置 模糊距离 阴影尺寸（影子大小） 阴影颜色  内/外阴影； */
+    box-shadow: 0 15px 30px  rgba(0, 0, 0, .4);
 }
 ~~~
 
@@ -508,8 +513,7 @@ div {
 示例： 
 
 ~~~css
-.selector {
-}
+.selector {}
 ~~~
 
 【强制】 属性名 与之后的 : 之间不允许包含空格， : 与 属性值 之间必须包含空格。
@@ -526,18 +530,16 @@ font-size: 12px;
 
 示例：
 
-```
+```html
 /* good */
 .post,
 .page,
 .comment {
-    line-height: 1.5;
+	line-height: 1.5;
 }
-
-
 /* bad */
 .post, .page, .comment {
-    line-height: 1.5;
+	line-height: 1.5;
 }
 ```
 
@@ -567,7 +569,6 @@ font-size: 12px;
     margin: 0;
     padding: 0;
 }
-
 /* bad */
 .selector { margin: 0; padding: 0; }
 ```
@@ -581,7 +582,6 @@ font-size: 12px;
 .selector {
     margin: 0;
 }
-
 /* bad */
 .selector {
     margin: 0

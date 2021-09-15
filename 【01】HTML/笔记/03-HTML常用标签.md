@@ -45,7 +45,7 @@ typora-copy-images-to: media
 
 显示效果如下：
 
-  <img src="media/h.png" />
+  <img src="media\1-1-30.png" />
 
 **小结 :**
 
@@ -53,7 +53,7 @@ typora-copy-images-to: media
 - 一行是只能放一个标题的
 
 ```
-     传智播客学前端，
+    传智播客学前端，
 　　 前端入门亦简单。
 　　 简单知识简单看，
 　　 重点勤练写三遍。
@@ -82,7 +82,7 @@ typora-copy-images-to: media
 
 单词缩写：  horizontal  横线    [ˌhɔrəˈzɑntl]    同上
 
-在网页中常常看到一些水平线将段落与段落之间隔开，使得文档结构清晰，层次分明。这些水平线可以通过插入图片实现，也可以简单地通过标签来完成，<hr />就是创建横跨网页水平线的标签。其基本语法格式如下：
+在网页中常常看到一些水平线将段落与段落之间隔开，使得文档结构清晰，层次分明。这些水平线可以通过插入图片实现，也可以简单地通过标签来完成，```<hr />```就是创建横跨网页水平线的标签。其基本语法格式如下：
 
 ```html
 <hr />是单标签
@@ -92,7 +92,7 @@ typora-copy-images-to: media
 
 课堂练习:新闻页面 
 
-<img src="media/sh.png" /> 
+<img src="media\1-1-31.png" /> 
 
 ### 4）换行标签br (熟记)
 
@@ -131,20 +131,20 @@ span   跨度，跨距；范围
 
 ### 排版标签总结
 
-| 标签名        | 定义       | 说明                                  |
-| ------------- | :--------- | :------------------------------------ |
-| `<hx></hx>`     | 标题标签   | 作为标题使用，并且依据重要性递减      |
-| `<p></p>`       | 段落标签   | 可以把 HTML 文档分割为若干段落        |
-| `<hr />`        | 水平线标签 | 没啥可说的，就是一条线                |
-| `<br />`        | 换行标签   |                                       |
-| `<div></div>`   | div标签    | 用来布局的，但是现在一行只能放一个div |
-| `<span></span>` | span标签   | 用来布局的，一行上可以放好多个span    |
+| 标签名              | 定义       | 说明                                  |
+| ------------------- | :--------- | :------------------------------------ |
+| ```<hx></hx>```     | 标题标签   | 作为标题使用，并且依据重要性递减      |
+| ```<p></p>```       | 段落标签   | 可以把 HTML 文档分割为若干段落        |
+| ```<hr />```        | 水平线标签 | 没啥可说的，就是一条线                |
+| ```<br />```        | 换行标签   |                                       |
+| ```<div></div>```   | div标签    | 用来布局的，但是现在一行只能放一个div |
+| ```<span></span>``` | span标签   | 用来布局的，一行上可以放好多个span    |
 
 ## 1.2 文本格式化标签(熟记)
 
 在网页中，有时需要为文字设置粗体、斜体或下划线效果，这时就需要用到HTML中的文本格式化标签，使文字以特殊的方式显示。
 
-<img src="media/tab.png" />
+<img src="media\1-1-32.png" />
 
 **区别：**
 
@@ -158,7 +158,7 @@ span   跨度，跨距；范围
 
 ## 1.3 标签属性
 
- <img src="media/ttt.jpg" width="300"  />
+ <img src="media\1-1-33.png" width="300"  />
 
 所谓属性就是**外在特性**  比如 手机的颜色 手机的尺寸 ，总结就是手机的。。
 
@@ -174,7 +174,7 @@ span   跨度，跨距；范围
 <手机 颜色="红色" 大小="5寸">  </手机>
 ```
 
-提倡：   尽量不使用 样式属性。   <img src="media/sm.jpg" /> 
+提倡：   尽量不使用 样式属性。   <img src="media\1-1-34.png" /> 
 
 ## 1.4 图像标签img (重点)
 
@@ -190,7 +190,7 @@ span   跨度，跨距；范围
 
 该语法中src属性用于指定图像文件的路径和文件名，他是img标签的必需属性。
 
-<img src="media/img.png" />
+<img src="media\1-1-35.png" />
 
 border 后面我们会用css来做，这里童鞋们就记住这个border 单词就好了
 
@@ -270,7 +270,7 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
 注释重要性：
 
-<img src="media/zs.png" />
+<img src="media\1-1-36.png" />
 
 **pink老师 一句话说出他们:**
 
@@ -301,7 +301,7 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
 # 2. 路径(重点、难点)
 
-<img src="media/dt.png" width="400" />
+<img src="media\1-1-37.png" width="400" />
 
 
 
@@ -311,13 +311,13 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
 就是普通文件夹，里面只不过存放了我们做页面所需要的 相关素材，比如 html文件， 图片 等等。
 
- <img src="media/g.png" />
+ <img src="media\1-1-38.png" />
 
 **根目录 **  
 
 打开目录文件夹的第一层  就是 根目录 
 
- <img src="media/gg.png" />
+ <img src="media\1-1-39.png" />
 
 页面中的图片会非常多， 通常我们再新建一个文件夹专门用于存放图像文件（images），这时再插入图像，就需要采用“路径”的方式来指定图像文件的位置。路径可以分为： 相对路径和绝对路径
 
@@ -329,9 +329,9 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
 | 路径分类   | 符号  | 说明                                                         |
 | ---------- | :---: | :----------------------------------------------------------- |
-| 同一级路径 |       | 只需输入图像文件的名称即可，如&lt;img src="baidu.gif" /&gt;。<img src='./media/04路径同目录.jpg'> |
-| 下一级路径 |  “/”  | 图像文件位于HTML文件同级文件夹下（例如文件夹名称为：images）                         如&lt;img src="images/baidu.gif" /&gt;。  <img  src='./media/05路径不同.jpg'/> |
-| 上一级路径 | “../” | 在文件名之前加入“../” ，如果是上两级，则需要使用 “../ ../”，以此类推，                    如&lt;img src="../baidu.gif" /&gt;。 <img  src='./media/06路径不同.jpg'/> |
+| 同一级路径 |       | 只需输入图像文件的名称即可，如&lt;img src="baidu.gif" /&gt;。<img src='media\1-1-40.png'> |
+| 下一级路径 |  “/”  | 图像文件位于HTML文件同级文件夹下（例如文件夹名称为：images）                         如&lt;img src="images/baidu.gif" /&gt;。  <img  src='media\1-1-41.png'/> |
+| 上一级路径 | “../” | 在文件名之前加入“../” ，如果是上两级，则需要使用 “../ ../”，以此类推，                    如&lt;img src="../baidu.gif" /&gt;。 <img  src='media\1-1-42.png'/> |
 
 **pink老师 一句话说出他们: **
 
@@ -353,17 +353,17 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
 学HTML 之前 觉得 很神秘  
 
- <img src="media/z.png" />
+ <img src="C:\Users\LEGION\Desktop\html\media\1-1-43.png" />
 
 等你学完之后忽然发现
 
- <img src="media/rh.jpg" width="615" />
+ <img src="C:\Users\LEGION\Desktop\html\media\1-1-44.png" width="615" />
 
 
 
 总结今天的思路贯穿线：
 
-<img src="media/a.png" width="1000" />
+<img src="media\1-1-3.png" width="1000" />
 
 
 
@@ -387,7 +387,7 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
   <a href="#two">   
 ```
 
- <img src="C:/Users/itcast/Desktop/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80HTML%E7%AC%AC%E4%B8%80%E5%A4%A9/%E7%AC%94%E8%AE%B0/media/03a%E7%9B%AE%E6%A0%87.jpg">
+ <img src="media\1-1-45.png">
 
 快速记忆法：
 
@@ -401,12 +401,12 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 <base target="_blank" />
 ```
 
-<img src="C:/Users/itcast/Desktop/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80HTML%E7%AC%AC%E4%B8%80%E5%A4%A9/%E7%AC%94%E8%AE%B0/media/base.png" />
+<img src="media\1-1-46.png" />
 
 **总结： **
 
 1. base 可以设置整体链接的打开状态   
-2. base 写到  <head>  </head>  之间
+2. base 写到  ```<head>  </head>```  之间
 3. 把所有的连接 都默认添加 target="_blank"
 
 **pink老师 一句话说出他们:**
@@ -415,9 +415,11 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
 #### 5.3 预格式化文本pre标签
 
-`<pre>` 标签可定义预格式化的文本。
+```<pre>``` 标签可定义预格式化的文本。
 
-被包围在 `<pre>` 标签 元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。
+
+
+被包围在 ```<pre>``` 标签 元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。
 
 ```html
 <pre>
@@ -443,7 +445,7 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
  一些特殊的符号，我们再html 里面很难或者 不方便直接 使用， 我们此时可以使用下面的替代代码。
 
-<img src="media/zifu.png" />
+<img src="media\1-1-47.png" />
 
 **虽然有很多，但是我们平时用的比较较少， 大家重点记住   空格    大于号 小于号   就可以了，剩下的回来查阅。**
 
@@ -472,7 +474,7 @@ border 后面我们会用css来做，这里童鞋们就记住这个border 单词
 
 
 
- <img src="media/html5.png" width="600"/>
+ <img src="media\1-1-48.png" width="600"/>
 
 
 
@@ -509,8 +511,6 @@ XHTML 是更严格更纯净的 HTML 代码。
 
   例如： 
 
-  <img src="media/qq.png" />
+  <img src="C:\Users\LEGION\Desktop\html\media\1-1-49.png" />
 
-    可以把你今天学习的内容放在表格内，再次作为总结
-
-  ​
+    可以把你今天学习的内容放在表格内，再次作为总结​

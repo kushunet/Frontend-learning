@@ -9,7 +9,7 @@ typora-copy-images-to: media
 
 网站首页
 
-<img src="media/电商-主页-gai.jpg" />
+<img src="media\1-1-1.jpg" />
 
 列表页、详情页、登录页、 注册页等等。。。。
 
@@ -17,7 +17,7 @@ typora-copy-images-to: media
 
 # 课程安排
 
-<img src="media/kec.png" >
+<img src="media\1-1-2.png" >
 
  就业班详情 参看： http://www.itcast.cn/course/web.shtml
 
@@ -25,7 +25,7 @@ typora-copy-images-to: media
 
   能够写出基本的html页面（里面包含图片、链接、文字等网页元素标签）
 
-<img src="media/a.png" width="1000" />
+<img src="media\1-1-3.png" width="1000" />
 
 # 认识WEB
 
@@ -35,14 +35,13 @@ typora-copy-images-to: media
 网页主要由文字、图像和超链接等元素构成。当然，除了这些元素，网页中还可以包含音频、视频以及Flash等。
 ```
 
-<img src="media/mi.png"alt="">
+<img src="media\1-1-4.png" alt="">
 
 **思考：** 
 
 网页是如何形成的呢?
 
-
-<img src="media/web.png" />
+<img src="media\1-1-5.png" />
 
 
 
@@ -56,17 +55,17 @@ typora-copy-images-to: media
 浏览器是网页显示、运行的平台，常用的浏览器有IE、火狐（Firefox）、谷歌（Chrome）、Safari和Opera等。我们平时称为五大浏览器。
 ```
 
-<img src="media/b.png" />
+<img src="media\1-1-6.png" />
 
 可能你最熟悉的是 IE浏览器，但是。。。
 
-<img src="media/liulan.jpg" >
+<img src="media\1-1-7.png" >
 
 ### 2.1 查看浏览器占有的市场份额
 
 查看网站： <a href="http://tongji.baidu.com/data/browser" target="_blank">http://tongji.baidu.com/data/browser</a>
 
-<img src="media/count.png" />
+<img src="media\1-1-8.png" />
 
  2008年，大名鼎鼎的互联网巨头Google公司发布了它的首款浏览器Chrome浏览器。   
 
@@ -83,6 +82,7 @@ typora-copy-images-to: media
 ```
 负责读取网页内容，整理讯息，计算网页的显示方式并显示页面.
 ```
+
 因为浏览器太多啦， 但是现在主要流行的就是下面几个：
 
 | 浏览器  |      内核      | 备注                                                         |
@@ -94,6 +94,7 @@ typora-copy-images-to: media
 | Opera   |     blink      | 现在跟随chrome用blink内核。                                  |
 
 **拓展阅读：**
+
 ```
 移动端的浏览器内核主要说的是系统内置浏览器的内核。
 
@@ -121,7 +122,7 @@ W3C 万维网联盟是国际最著名的标准化组织。1994年成立后，至
 
  通过以上浏览器不同内核不同，我们知道他们显示页面或者排版就有些许差异。
 
-<img src="media/bz.png" />
+<img src="media\1-1-9.png" />
 
 ### 3.2 Web 标准的好处
 
@@ -140,9 +141,9 @@ W3C 万维网联盟是国际最著名的标准化组织。1994年成立后，至
 
 | 标准 | 说明                                                         | 备注                           |
 | :--- | :----------------------------------------------------------- | :----------------------------- |
-| 结构 | 结构用于对**网页元素**进行整理和分类，咱们主要学的是HTML。   | <img src='media/htmll.jpg' />  |
-| 表现 | 表现用于设置网页元素的版式、颜色、大小等**外观样式**，主要指的是CSS | <img src='media/css.jpg' />    |
-| 行为 | 行为是指网页模型的定义及**交互**的编写，咱们主要学的是 Javascript | <img src='media/search.gif' /> |
+| 结构 | 结构用于对**网页元素**进行整理和分类，咱们主要学的是HTML。   | <img src='media\1-1-10.png' /> |
+| 表现 | 表现用于设置网页元素的版式、颜色、大小等**外观样式**，主要指的是CSS | <img src='media\1-1-11.png' /> |
+| 行为 | 行为是指网页模型的定义及**交互**的编写，咱们主要学的是 Javascript | <img src='media\1-1-12.png' /> |
 
  理想状态我们的源码： .HTML      .css      .js 
 
@@ -150,19 +151,19 @@ W3C 万维网联盟是国际最著名的标准化组织。1994年成立后，至
 
 **结合人来记忆web标准：**
 
-* 结构标准：   <img src="media/hb1.png" width="300" /> 是你天然的身体 
+* 结构标准：   <img src="media\1-1-13.png" width="300" /> 是你天然的身体 
 
 
 
 
 
-* 表现标准：   <img src="media/hb2.png" width="300" />  决定你是否打扮的美丽外观(衣服？化妆？)
+* 表现标准：   <img src="media\1-1-14.png" width="300" />  决定你是否打扮的美丽外观(衣服？化妆？)
 
 
 
 
 
-* 行为标准：   <img src="media/hb3.jpg"  width="420"   />  决定你是否有吸引人的行为(动作)
+* 行为标准：   <img src="media\1-1-15.png"  width="420"   />  决定你是否有吸引人的行为(动作)
 
 ****
 

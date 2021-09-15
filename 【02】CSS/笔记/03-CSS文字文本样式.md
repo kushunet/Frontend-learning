@@ -27,8 +27,7 @@ p {
   - 可以使用相对长度单位，也可以使用绝对长度单位。
   - 相对长度单位比较常用，推荐使用像素单位px，绝对长度单位使用较少。
 
-
-<img src="media/dd.png" />
+<img src="media\2-1-12.jpg" />
 
 **注意：**
 
@@ -53,7 +52,7 @@ p{ font-family:"微软雅黑";}
 p{font-family: Arial,"Microsoft Yahei", "微软雅黑";}
 ~~~
 
-> <img src="media/good.png" />常用技巧：
+> <img src="media\2-1-13.jpg" />常用技巧：
 
 ```
 1. 各种字体之间必须使用英文状态下的逗号隔开。
@@ -64,7 +63,7 @@ p{font-family: Arial,"Microsoft Yahei", "微软雅黑";}
 
 ### CSS Unicode字体
 
-<img src="media/shs.png" />
+<img src="media\2-1-14.jpg" />
 
 - 为什么使用 Unicode字体
 
@@ -81,18 +80,18 @@ p{font-family: Arial,"Microsoft Yahei", "微软雅黑";}
     font-family: "\5FAE\8F6F\96C5\9ED1";   表示设置字体为“微软雅黑”。
     ~~~
 
-| 字体名称      | 英文名称            | Unicode 编码           |
-| --------- | --------------- | -------------------- |
+| 字体名称    | 英文名称        | Unicode 编码         |
+| ----------- | --------------- | -------------------- |
 | 宋体        | SimSun          | \5B8B\4F53           |
-| 新宋体       | NSimSun         | \65B0\5B8B\4F53      |
+| 新宋体      | NSimSun         | \65B0\5B8B\4F53      |
 | 黑体        | SimHei          | \9ED1\4F53           |
-| 微软雅黑      | Microsoft YaHei | \5FAE\8F6F\96C5\9ED1 |
+| 微软雅黑    | Microsoft YaHei | \5FAE\8F6F\96C5\9ED1 |
 | 楷体_GB2312 | KaiTi_GB2312    | \6977\4F53_GB2312    |
 | 隶书        | LiSu            | \96B6\4E66           |
 | 幼园        | YouYuan         | \5E7C\5706           |
-| 华文细黑      | STXihei         | \534E\6587\7EC6\9ED1 |
-| 细明体       | MingLiU         | \7EC6\660E\4F53      |
-| 新细明体      | PMingLiU        | \65B0\7EC6\660E\4F53 |
+| 华文细黑    | STXihei         | \534E\6587\7EC6\9ED1 |
+| 细明体      | MingLiU         | \7EC6\660E\4F53      |
+| 新细明体    | PMingLiU        | \65B0\7EC6\660E\4F53 |
 
 为了照顾不同电脑的字体安装问题，我们尽量只使用宋体和微软雅黑中文字体
 
@@ -125,7 +124,7 @@ font-style属性用于定义字体风格，如设置斜体、倾斜或正常字�
 | normal | 默认值，浏览器会显示标准的字体样式  font-style: normal; |
 | italic | 浏览器会显示斜体的字体样式。                            |
 
-<img src="media/good.png" />小技巧： 
+<img src="media\2-1-13.jpg" />小技巧： 
 
 ```
 平时我们很少给文字加斜体，反而喜欢给斜体标签（em，i）改为普通模式。
@@ -146,13 +145,14 @@ font属性用于对字体样式进行综合设置
   - 其中不需要设置的属性可以省略（取默认值），但必须保留font-size和font-family属性，否则font属性将不起作用。
 
 ## 1.6 font总结
-| 属性                          |      表示      |      注意点      |
-| :---------------------------- | :-------------  | :------------- |
-| font-size     | 字号 |我们通常用的单位是px 像素，一定要跟上单位|
-| font-family     |    字体    |实际工作中按照团队约定来写字体|
-| font-weight |  字体粗细 |记住加粗是 700 或者 bold  不加粗 是 normal 或者  400  记住数字不要跟单位|
-| font-style | 字体样式 |记住倾斜是 italic     不倾斜 是 normal  工作中我们最常用 normal|
-| font | 字体连写 |1. 字体连写是有顺序的  不能随意换位置 2. 其中字号 和 字体 必须同时出现|
+
+| 属性        | 表示     | 注意点                                                       |
+| :---------- | :------- | :----------------------------------------------------------- |
+| font-size   | 字号     | 我们通常用的单位是px 像素，一定要跟上单位                    |
+| font-family | 字体     | 实际工作中按照团队约定来写字体                               |
+| font-weight | 字体粗细 | 记住加粗是 700 或者 bold  不加粗 是 normal 或者  400  记住数字不要跟单位 |
+| font-style  | 字体样式 | 记住倾斜是 italic     不倾斜 是 normal  工作中我们最常用 normal |
+| font        | 字体连写 | 1. 字体连写是有顺序的  不能随意换位置 2. 其中字号 和 字体 必须同时出现 |
 
 # 2. CSS外观属性
 
@@ -224,11 +224,11 @@ line-height: 24px;
 
 ~~~css
 p {
-      /*行间距*/
-      line-height: 25px;
-      /*首行缩进2个字  em  1个em 就是1个字的大小*/
-      text-indent: 2em;  
- }
+    /*行间距*/
+    line-height: 25px;
+    /*首行缩进2个字  em  1个em 就是1个字的大小*/
+    text-indent: 2em;
+}
 ~~~
 
 ## 2.5 text-decoration 文本的装饰
@@ -244,13 +244,13 @@ text-decoration   通常我们用于给链接修改装饰效果
 
 ## 2.6 CSS外观属性总结
 
-| 属性                          |      表示      |      注意点      |
-| :---------------------------- | :-------------  | :------------- |
-| color | 颜色 |我们通常用  十六进制   比如 而且是简写形式 #fff|
-| line-height |    行高    |控制行与行之间的距离|
-| text-align | 水平对齐 |可以设定文字水平的对齐方式|
-| text-indent | 首行缩进 |通常我们用于段落首行缩进2个字的距离   text-indent: 2em;|
-| text-decoration | 文本修饰 |记住 添加 下划线  underline  取消下划线  none|
+| 属性            | 表示     | 注意点                                                  |
+| :-------------- | :------- | :------------------------------------------------------ |
+| color           | 颜色     | 我们通常用  十六进制   比如 而且是简写形式 #fff         |
+| line-height     | 行高     | 控制行与行之间的距离                                    |
+| text-align      | 水平对齐 | 可以设定文字水平的对齐方式                              |
+| text-indent     | 首行缩进 | 通常我们用于段落首行缩进2个字的距离   text-indent: 2em; |
+| text-decoration | 文本修饰 | 记住 添加 下划线  underline  取消下划线  none           |
 
 # 3.开发者工具（chrome）
 
@@ -261,12 +261,12 @@ text-decoration   通常我们用于给链接修改装饰效果
 - “按F12”或者是 “shift+ctrl+i”   打开 开发者工具。
 - 菜单：   右击网页空白出---检查
 
-<img src='./media/11开发人员工具.jpg'>
+<img src="media\2-1-15.jpg">
 
 - 通过开发人员工具小指针工具，查找页面元素
 - 左侧是html页面结构，右侧是css样式
 
-<img src="media/good.png" />小技巧：
+<img src="media/2-1-13.jpg" />小技巧：
 
 1. ctrl+滚轮 可以 放大开发者工具代码大小。
 2. 左边是HTML元素结构   右边是CSS样式。
@@ -278,7 +278,7 @@ text-decoration   通常我们用于给链接修改装饰效果
 
 Emmet的前身是Zen coding,它使用缩写,来提高html/css的编写速度。
 
-1. 生成标签 直接输入标签名 按tab键即可   比如  div   然后tab 键， 就可以生成 `<div></div>`
+1. 生成标签 直接输入标签名 按tab键即可   比如  div   然后tab 键， 就可以生成 <div></div>
 
 2. 如果想要生成多个相同标签  加上 * 就可以了 比如   div*3  就可以快速生成3个div
 
@@ -291,7 +291,7 @@ Emmet的前身是Zen coding,它使用缩写,来提高html/css的编写速度。
 6. 如果生成的div 类名是有顺序的， 可以用 自增符号  $     
 
    ~~~
-   .demo$*3        
+   .demo$*3
    <div class="demo1"></div>
    <div class="demo2"></div>
    <div class="demo3"></div>
@@ -301,11 +301,11 @@ Emmet的前身是Zen coding,它使用缩写,来提高html/css的编写速度。
 
 # 5. 综合案例
 
-<img src="media/css1.png" />
+<img src="media\2-1-16.jpg" />
 
 # 6. 今日总结
 
-<img src="media/zong1.jpg" />
+<img src="media/2-1-1.jpg" />
 
 # 7. 拓展阅读@
 

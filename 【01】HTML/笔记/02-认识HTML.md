@@ -35,11 +35,11 @@ typora-copy-images-to: media
 
 **门外汉眼中的效果页面**
 
-<img src="media/title1.png"  />
+<img src="media\1-1-16.png"  />
 
 **我们要做的html页面**
 
-<img src="media/title.png" />
+<img src="media\1-1-17.png" />
 
 **html 总结:**
 
@@ -53,7 +53,7 @@ typora-copy-images-to: media
 
 日常生活的书信，我们要遵循共同的约定。 
 
-<img src="media/mess.png" alt="">
+<img src="media\1-1-18.png" alt="">
 
 同理：HTML 有自己的语言语法骨架格式：（要遵循，要专业） 要求务必非常流畅的默写下来。。
 
@@ -66,13 +66,15 @@ typora-copy-images-to: media
     </body>
 </html>
 ```
+
 #### html骨架标签总结
-| 标签名              |   定义   | 说明                             |
-| ---------------- | :----: | :----------------------------- |
-| `<html></html>`    | HTML标签 | 页面中最大的标签，我们成为  根标签             |
-| `<head></head>`    | 文档的头部  | 注意在head标签中我们必须要设置的标签是title     |
-| `<titile></title>` | 文档的标题  | 让页面拥有一个属于自己的网页标题               |
-| `<body></body>`    | 文档的主体  | 元素包含文档的所有内容，页面内容 基本都是放到body里面的 |
+
+| 标签名                 |    定义    | 说明                                                    |
+| ---------------------- | :--------: | :------------------------------------------------------ |
+| ```<html></html>```    |  HTML标签  | 页面中最大的标签，我们成为  根标签                      |
+| ```<head></head>```    | 文档的头部 | 注意在head标签中我们必须要设置的标签是title             |
+| ```<titile></title>``` | 文档的标题 | 让页面拥有一个属于自己的网页标题                        |
+| ```<body></body>```    | 文档的主体 | 元素包含文档的所有内容，页面内容 基本都是放到body里面的 |
 
 **课堂练习1： **   
 
@@ -98,11 +100,11 @@ typora-copy-images-to: media
    ```
 
 
- <img src='./media/01html骨架.jpg'>
+ <img src="media\1-1-19.png">
 
 为了便于记忆，我们请出刚才要辞职回家养猪的二师兄来帮忙， 我称之为  猪八戒记忆法
 
-<img src="media/pig.png" width="500" />
+<img src="media\1-1-20.png" width="500" />
 
 
 
@@ -169,21 +171,20 @@ HTML标签名、类名、标签属性和大部分属性值统一用小写
 </head>
 ```
 
-<img src="media/father.jpg">
+<img src="media\1-1-21.png">
 
 2.并列关系
 
 ```html
-<head></head>
-<body></body>
+<head></head><body></body>
 ```
 
-<img src="media/xiong.jpg" width="500">
+<img src="media\1-1-22.png" width="500">
 
 **倡议：** 
 
 > ```html
->  如果两个标签之间的关系是嵌套关系，子元素最好缩进一个tab键的身位（一个tab是4个空格）。如果是并列关系，最好上下对齐。
+> 如果两个标签之间的关系是嵌套关系，子元素最好缩进一个tab键的身位（一个tab是4个空格）。如果是并列关系，最好上下对齐。
 > ```
 
 
@@ -198,30 +199,35 @@ HTML标签名、类名、标签属性和大部分属性值统一用小写
 
 **请问下列哪组标签关系是错误的？ **
 
-- [ ] `<head> </head><body> </body>`
+- [ ] ```<head> </head> <body> </body>```
 
 
-- [ ] `<div> <strong></strong> </div>`
+- [ ] ```<div> <strong></strong> </div>```
 
 
-- [x] `<head> <title></head> </title>`
+- [x] ```<head> <title></head> </title>```
 
 
-- [ ] `<body> <div></div> </body>`
+- [ ] ```<body> <div></div> </body>```
 
 
 
 # 2. 代码开发工具（书写代码）
 
 - 为了提高我们的开发效率
+
 - 减少代码的出错我们不提倡用记事本开发，我们有更好的犀利哥。
 
-  <img src="media/s.png" />
+  <img src="media\1-1-23.png" />
 
 - Dreamweaver
+
 - SublimeText
+
 - WebStorm
+
 - HBuilder
+
 - VScode
 
 有人说：
@@ -234,12 +240,12 @@ HTML标签名、类名、标签属性和大部分属性值统一用小写
 
   其实。。。。
 
-  <img src="media/node.png" />
+  <img src="media\1-1-24.png" />
 
 
 感觉： 这个feel 倍儿爽 feel feel倍儿爽 爽爽爽爽！
 
- <img src="media/shuang.gif" />
+ <img src="media\1-1-25.png" />
 
 
 sublime有非常多的优点， 最开心的就是非常轻量级，打开速度超快，后面更高的功能，后面再接触。
@@ -268,9 +274,11 @@ sublime有非常多的优点， 最开心的就是非常轻量级，打开速度
 
 <!DOCTYPE> 声明位于文档中的最前面的位置，处于 <html> 标签之前。此标签可告知浏览器文档使用哪种 HTML 或 XHTML 规范。
 
+
 **pink老师 一句话说出他们:**
 
    <!DOCTYPE html>  就是告诉浏览器按照HTML5 规范解析页面.
+
 
 **团队约定：**
 
@@ -291,7 +299,7 @@ sublime有非常多的优点， 最开心的就是非常轻量级，打开速度
 
 **pink老师 一句话说出他们:**
 
->  <html lang="zh-CN">  指定该html标签 内容 所用的语言为中文
+>  ```<html lang="zh-CN">```  指定该html标签 内容 所用的语言为中文
 
 **团队约定：**
 
@@ -318,9 +326,7 @@ sublime有非常多的优点， 最开心的就是非常轻量级，打开速度
 ~~~
 
 ~~~
-字符集(Character set)是多个字符的集合。
-
-计算机要准确的处理各种字符集文字，需要进行字符编码，以便计算机能够识别和存储各种文字。
+字符集(Character set)是多个字符的集合。计算机要准确的处理各种字符集文字，需要进行字符编码，以便计算机能够识别和存储各种文字。
 ~~~
 
 utf-8是目前最常用的字符集编码方式，常用的字符集编码方式还有gbk和gb2312。
@@ -353,7 +359,7 @@ utf-8是目前最常用的字符集编码方式，常用的字符集编码方式
 2. 同时让浏览器或是网络爬虫可以很好地解析，从而更好分析其中的内容 
 3. 使用语义化标签会具有更好地搜索引擎优化 
 
-<img src='./media/02语义化.jpg'>
+<img src="media\1-1-26.png">
 
 
 
@@ -369,6 +375,6 @@ utf-8是目前最常用的字符集编码方式，常用的字符集编码方式
 
 大话西游之大圣娶亲最后一幕“他好像一条狗”由来。
 
- <img src='./media/dog.jpg'>
- <img src='./media/dog2.jpg'>
- <img src='./media/dog3.jpg'>
+ <img src="media\1-1-27.png">
+ <img src="media\1-1-28.png">
+ <img src="media\1-1-29.png">
