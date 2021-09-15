@@ -8,7 +8,7 @@
 
 ### 2)全局API
 
-- vue.component():注册公共组件或者说注册全局组件的,main.js中可以在某个js文件中书写,然后在main.js中引入components注册的是局部组件
+- vue.component(): 注册公共组件或者说注册全局组件的,main.js中可以在某个js文件中书写,然后在main.js中引入components注册的是局部组件
 
 - vue.directive(): 设置指令的
 
